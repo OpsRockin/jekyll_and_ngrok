@@ -1,0 +1,6 @@
+.rvmrc
+*.sw[a-z]
+.bundle/
+_site/
+tmp/
+bin/
