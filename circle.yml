@@ -1,0 +1,4 @@
+---
+test:
+  override:
+    - ./ci/run_ngrok.sh

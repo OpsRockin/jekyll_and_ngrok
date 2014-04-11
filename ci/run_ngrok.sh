@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -ex
+echo "server_addr: ${NGROK_SERVER}" > .ngrok
 
 git submodule init
 git submodule update

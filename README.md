@@ -3,11 +3,7 @@
 
 ## 準備
 
-ngrokサーバの情報をどちらかの方法でセット。
-
-- `.ngrok`を任意の内容で作成して、リポジトリに登録する。
-- `ci/run_ngrok.sh`に`.ngrok`を生成する処理を追加。
-
+ngrokサーバの情報をCircleCIのENV`NGROK_SERVER`としてセットします。(`ngroc.example.com:4443`)
 
 ## 使い方
 
